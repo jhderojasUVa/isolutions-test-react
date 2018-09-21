@@ -1,0 +1,69 @@
+body {
+  font-family: Arial, Helvetica, sans-sans-serif;
+  background-color: #e9e9e9;
+  margin: 2em;
+}
+
+.App {
+  background-color: white;
+  border: 1px solid #c9c9c9;
+  padding: 1.5em;
+}
+
+#grillCanvas {
+  border: 1px solid black;
+}
+
+#grillCanvas .Steak, #grillCanvas .Sausage, #grillCanvas .Tomato, #grillCanvas .Veal {
+  stroke: #e9e9e9;
+  stroke-width: 1;
+}
+
+#grillCanvas .Steak {
+  fill: #71370d;
+}
+
+#grillCanvas .Sausage {
+  fill: #46370d;
+}
+
+#grillCanvas .Tomato {
+  fill: red;
+}
+
+#grillCanvas .Veal {
+  fill: #2e1f06;
+}
+
+.Result, .Count, .Lack {
+  display: inline-block;
+  vertical-align: top;
+  margin: 0em 0.5em;
+}
+
+h1 {
+  font-size: 1.5em;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 1px 1px 3px black;
+  background-color: #f1f1f1;
+  border-bottom: 1px solid black;
+  padding: 1.5em 2em;
+}
+
+h2 {
+  font-size: 1.2em;
+  border-bottom: 2px dotted black;
+}
+
+ul li {
+  list-style-type: square;
+}
+
+.itemName {
+  color: #153641;
+}
+
+.theData {
+  color: #6db3bf;
+}
