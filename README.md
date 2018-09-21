@@ -1,4 +1,4 @@
-#iSolutions Test in React
+# iSolutions Test in React
 
 This is a small and fast solution for the iSolutions coding test. It's not complete (doesn't have the grid because it's still working on).
 
